@@ -1,5 +1,5 @@
 
-# GradientMapFilter
+# Gradient Map
 
 GradientMap post effect for Unity Urp </br>
 Controlled via volume profile, works as render feature.</br>
