@@ -1,3 +1,4 @@
+
 # GradientMapFilter
 
 GradientMapFilter - post effect for Unity Urp </br>
@@ -21,3 +22,7 @@ creating short fx events or static pulsing of light as in the example.
 
 ![_animation](https://github.com/NullTale/GradientMapFilter/assets/1497430/206d8a47-4285-4ccb-9ca0-124184576afc)
 > example can be found in the project samples
+
+#### GradientMap like effect from Cult of the Lamb
+
+https://github.com/NullTale/GradientMapFilter/assets/1497430/84de70d6-fdfb-4b95-bf1c-afd46600bd98
