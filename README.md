@@ -1,17 +1,22 @@
-# OldMoviefx
+# Gradient Map Filter
 
-OldMoview post effect for Unity Urp, </br>
-Controlled via volume profile, works as render feature
+Gradient Map post effect for Unity Urp </br>
+Controlled via volume profile, works as render feature.</br>
 
-![_cover](https://github.com/NullTale/OldMovieFx/assets/1497430/8c9c33b5-1a5d-4b92-b2ee-199fb83f97f9)
+The concept is taken from graphic editors when an image a colored</br>
+by gradient from their grayscale values ([gradietn map](https://www.bcit.cc/cms/lib04/NJ03000372/Centricity/Domain/299/p6_howto_use_gradient_maps%2018.pdf) in photoshop)
+
+![_cover]
+> alpha channel of the gradient, this is the color of the original image
 
 ## Usage
-Install via Unity [PackageManager](https://docs.unity3d.com/Manual/upm-ui-giturl.html)
+Install via Unity [PackageManager](https://docs.unity3d.com/Manual/upm-ui-giturl.html)</br>
+add `GradientMap` RenderFeature to the UrpRenderer
 ```
-https://github.com/NullTale/OldMovieFx.git
+https://github.com/NullTale/GradientMap.git
 ```
 
-Works as render feature, some parameters like jolt range</br>
-and vignette flickering can be configured in the asset.</br>
+Gradients support blending, can be used for paletter swappings</br>
+or for creating shot fx flashed or static pulsing of light for example.
 
-![image](https://github.com/NullTale/OldMovieFx/assets/1497430/afe0c10b-7364-4922-b87c-3964e1aff226)
+![_animation]
