@@ -3,9 +3,9 @@
   "displayName": "GradientMap",
   "version": "1.0.0",
   "unity": "2022.1",
-  "description": "GradientMap post processing filter for unity Urp",
-  "documentationUrl": "https://github.com/NullTale/GradientMap",
-  "licensesUrl": "https://github.com/NullTale/NAME/GradientMap/master/LICENSE.md",
+  "description": "GradientMap post processing for unity Urp",
+  "documentationUrl": "https://github.com/NullTale/GradientMapFilter",
+  "licensesUrl": "https://github.com/NullTale/GradientMapFilter/blob/master/LICENSE.md",
   "author": {
     "name": "NullTale",
     "email": "nulltale@gmail.com",
