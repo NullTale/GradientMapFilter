@@ -10,6 +10,14 @@ by gradient from their grayscale values ([gradietn map](https://www.bcit.cc/cms/
 ![_cover](https://github.com/NullTale/GradientMapFilter/assets/1497430/18cf6991-1486-49f8-bd38-099fe50ef500)</br>
 > gradietn alpha color of the original image
 
+## Part of Artwork Project
+
+* [Vhs](https://github.com/NullTale/VhsFx)
+* [OldMovie](https://github.com/NullTale/OldMovieFx)
+* [GradientMap]
+* [ScreenOutline](https://github.com/NullTale/OutlineFilter)
+* [ImageFlow](https://github.com/NullTale/FlowFx)
+
 ## Usage
 Install via Unity [PackageManager](https://docs.unity3d.com/Manual/upm-ui-giturl.html)</br>
 Add `GradientMap` RenderFeature to the UrpRenderer
