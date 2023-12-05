@@ -17,6 +17,7 @@ by gradient from their grayscale values ([gradietn map](https://www.bcit.cc/cms/
 * [GradientMap]
 * [ScreenOutline](https://github.com/NullTale/OutlineFilter)
 * [ImageFlow](https://github.com/NullTale/FlowFx)
+* [Pixelation](https://github.com/NullTale/PixelationFx)
 
 ## Usage
 Install via Unity [PackageManager](https://docs.unity3d.com/Manual/upm-ui-giturl.html)</br>
