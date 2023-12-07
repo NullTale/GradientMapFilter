@@ -10,7 +10,7 @@ The concept is taken from graphic editors when an image a colored</br>
 by gradient from their grayscale values ([gradietn map](https://www.bcit.cc/cms/lib04/NJ03000372/Centricity/Domain/299/p6_howto_use_gradient_maps%2018.pdf) in photoshop)
 
 ![_cover](https://github.com/NullTale/GradientMapFilter/assets/1497430/18cf6991-1486-49f8-bd38-099fe50ef500)</br>
-> gradietn alpha color of the original image
+> gradietn alpha - color of the original image
 
 ## Part of Artwork Project
 
