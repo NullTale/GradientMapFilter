@@ -1,3 +1,5 @@
+#if !VOL_FX // gradient map is build in pass, disable to prevent a conflicts
+
 using System;
 using UnityEngine;
 using UnityEngine.Rendering;
@@ -6,7 +8,7 @@ using UnityEngine.Rendering.Universal;
 //  GradientMap © NullTale - https://twitter.com/NullTale/
 namespace VolFx
 {
-    [Serializable, VolumeComponentMenu("Vol/Gradient Map")]
+    [Serializable, VolumeComponentMenu("VolFx/Gradient Map")]
     public sealed class GradientMapVol : VolumeComponent, IPostProcessComponent
     { 
         public static GradientValue Default 
@@ -30,3 +32,5 @@ namespace VolFx
         public bool IsTileCompatible() => false;
     }
 }
+
+#endif

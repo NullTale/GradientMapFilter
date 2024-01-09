@@ -1,3 +1,5 @@
+#if !VOL_FX
+
 using System;
 using UnityEditor;
 using UnityEngine;
@@ -145,6 +147,7 @@ namespace VolFx.Editor
                     so.ApplyModifiedProperties();
             }
         }
-        
     }
 }
+
+#endif

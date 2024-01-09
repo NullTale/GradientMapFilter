@@ -1,7 +1,7 @@
 {
   "name": "www.nulltale.gradientmap",
   "displayName": "GradientMap",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "unity": "2022.1",
   "description": "GradientMap post processing for unity Urp",
   "documentationUrl": "https://github.com/NullTale/GradientMapFilter",
