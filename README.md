@@ -13,6 +13,7 @@ by gradient from their grayscale values ([gradietn map](https://www.bcit.cc/cms/
 > gradietn alpha - color of the original image
 
 ## Part of Artwork Project
+All effects can work individually or as a part of [VolFx](https://github.com/NullTale/VolFx) framework
 
 * [Vhs](https://github.com/NullTale/VhsFx)
 * [OldMovie](https://github.com/NullTale/OldMovieFx)
@@ -20,6 +21,7 @@ by gradient from their grayscale values ([gradietn map](https://www.bcit.cc/cms/
 * [ScreenOutline](https://github.com/NullTale/OutlineFilter)
 * [ImageFlow](https://github.com/NullTale/FlowFx)
 * [Pixelation](https://github.com/NullTale/PixelationFx)
+* ...
 
 ## Usage
 Install via Unity [PackageManager](https://docs.unity3d.com/Manual/upm-ui-giturl.html)</br>
