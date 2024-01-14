@@ -13,7 +13,7 @@ by gradient from their grayscale values ([gradietn map](https://www.bcit.cc/cms/
 > gradietn alpha - color of the original image
 
 ## Part of Artwork Project
-All effects can work individually or as a part of [VolFx](https://github.com/NullTale/VolFx) framework
+All effects can work individually or as a part of [VolFx](https://github.com/NullTale/VolFx)
 
 * [Vhs](https://github.com/NullTale/VhsFx)
 * [OldMovie](https://github.com/NullTale/OldMovieFx)
