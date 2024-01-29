@@ -1,5 +1,3 @@
-#if !VOL_FX // gradient map is build in pass, disable to prevent a conflicts
-
 using UnityEngine;
 
 //  GradientMap © NullTale - https://twitter.com/NullTale/
@@ -45,4 +43,3 @@ namespace VolFx
         }
     }
 }
-#endif

@@ -1,5 +1,3 @@
-#if !VOL_FX // gradient map is build in pass, disable to prevent a conflicts
-
 using System;
 using UnityEngine;
 using UnityEngine.Rendering;
@@ -32,5 +30,3 @@ namespace VolFx
         public bool IsTileCompatible() => false;
     }
 }
-
-#endif
