@@ -10,7 +10,7 @@ using UnityEngine.Rendering.Universal;
 //  GradientMap © NullTale - https://twitter.com/NullTale/
 namespace VolFx
 {
-    public static class VolFx
+    public static class VolFxProc
     {
         [Serializable]
         public abstract class Pass : ScriptableObject
@@ -18,9 +18,9 @@ namespace VolFx
             [NonSerialized]
             public GradientMap _owner;
             [SerializeField]
-            internal bool _active = true;
+            internal bool      _active = true;
             [SerializeField] [HideInInspector]
-            private Shader _shader;
+            private Shader     _shader;
             protected Material _material;
             private   bool     _isActive;
             
@@ -43,6 +43,9 @@ namespace VolFx
             internal void _init()
             {
 #if UNITY_EDITOR
+#if !UNITY_2022_1_OR_NEWER
+                Debug.LogError($"{System.Reflection.Assembly.GetExecutingAssembly().GetName().Name} require Unity 2022 or higher");
+#endif
                 if (_shader == null || _material == null)
                 {
                     var shaderName = GetType().GetCustomAttributes(typeof(ShaderNameAttribute), true).FirstOrDefault() as ShaderNameAttribute;
