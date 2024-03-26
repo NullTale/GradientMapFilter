@@ -4,8 +4,8 @@
 [![Discord](https://img.shields.io/badge/Discord-Discord?logo=discord&color=white)](https://discord.gg/CkdQvtA5un)
 [![Boosty](https://img.shields.io/badge/Support-Boosty?logo=boosty&color=white)](https://boosty.to/nulltale)
 
-GradientMap post effect for Unity Urp </br>
-Controlled via volume profile, works as render feature.</br>
+GradientMap post effect for Unity Urp, controlled via volume profile </br>
+Works as render feature or a pass for selective post processing [VolFx](https://github.com/NullTale/VolFx)
 
 The concept is taken from graphic editors when an image a colored</br>
 by gradient from their grayscale values ([gradietn map](https://www.bcit.cc/cms/lib04/NJ03000372/Centricity/Domain/299/p6_howto_use_gradient_maps%2018.pdf) in photoshop)
@@ -23,6 +23,7 @@ All effects can work individually or as a part of [VolFx](https://github.com/Nul
 * [ImageFlow](https://github.com/NullTale/FlowFx)
 * [Pixelation](https://github.com/NullTale/PixelationFx)
 * [Ascii](https://github.com/NullTale/AsciiFx)
+* [Dither](https://github.com/NullTale/DitherFx)
 * ...
 
 ## Usage
