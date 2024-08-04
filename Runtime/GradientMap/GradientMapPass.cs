@@ -4,7 +4,7 @@ using UnityEngine;
 namespace VolFx
 {
     [ShaderName("Hidden/Vol/GradientMap")]
-    public class GradientMapPass : VolFxProc.Pass
+    public class GradientMapPass : VolFx.Pass
     {
         private static readonly int s_Intensity = Shader.PropertyToID("_Intensity");
         private static readonly int s_Gradient  = Shader.PropertyToID("_GradientTex");
